@@ -41,4 +41,9 @@ public class Person {
     public void setNumber(String number) {
         this.number = number;
     }
+
+    @Override
+    public String toString() {
+        return "name" + name + " " + "address" + address + " " + "number" + number;
+    }
 }
